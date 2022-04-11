@@ -1,0 +1,264 @@
+/* -------------------- main.html -------------------- */
+
+#settings_body{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#select_user_permission_team{
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#make_user_permission_team{
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#invite_info{
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#my_permissions_list{
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#detail_body{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 맑은고딕, Malgun Gothic, dotum, gulim, sans-serif;
+}
+
+.text_deco01{
+    color: rgb(66, 65, 65);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 236, 184);
+    border-radius: 5px;
+    padding: 5px 0px 5px 10px;
+}
+
+/* 사용자 권한 그룹 설정 */
+#select_user_permission_team_table{
+    border-spacing: 5px;
+    width: 100%;
+}
+
+.user_email{
+    margin-left: 10px;
+}
+
+.user_name{
+    margin-left: 10px;
+}
+
+.user_select{
+    width: 130px;
+    height: 30px;
+    border-color: #e7e7e7;
+}
+
+/* 그룹 권한 설정 */
+#make_user_permission_team_list_table{
+    border-spacing: 5px 10px;
+    width: 60%;
+}
+
+.team_name{
+    margin-left: 10px;
+}
+
+/* 사용자 초대 정보 */
+.invite_email{
+    margin-left: 10px;
+}
+
+.invite_user_name{
+    margin-left: 10px;
+}
+
+.invite_createdAt{
+    margin-left: 10px;
+}
+
+/* -------------------- team_add.html -------------------- */
+
+.container{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text_add_team{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#team_submit_button{
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(253, 236, 184);
+    color: rgb(66, 65, 65);
+    padding: 10px 20px;
+}
+
+.delete_team_btn{
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(253, 236, 184);
+    color: rgb(66, 65, 65);
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+#team_submit_button:hover {
+    background-color: rgb(66, 65, 65);
+    color: rgb(253, 236, 184);
+}
+
+fieldset{
+    margin-top: 20px;
+    margin-left: -5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_add_team_input{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+#team_name{
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px; 
+    border-width: 3px; 
+    font-size: 15px; 
+    border-style: solid; 
+    border-color: rgb(253, 236, 184); 
+    background-color: rgb(249 249 249);
+}
+
+.selector{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.available_permissions{
+    font-weight: bolder;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: rgb(66, 65, 65);
+}
+
+.chosen_permissions{
+    font-weight: bolder;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: rgb(66, 65, 65);
+}
+
+#add_all_permissions, #remove_all_permissions{
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+}
+
+#add_permissions, #remove_permissions{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(66, 65, 65);
+}
+
+.help{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.selector ul.selector-chooser {
+    float: left;
+    width: 22px;
+    background-color: var(--selected-bg);
+    border-radius: 10px;
+    margin: 10em 5px 0 5px;
+    padding: 0;
+}
+.form-row {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid var(--hairline-color);
+}
+
+.selector-available, .selector-chosen {
+    float: left;
+    width: 380px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.selector select {
+    padding: 0 10px;
+    margin: 0 0 10px;
+    border-radius: 0 0 4px 4px;
+    width: 380px;
+    height: 17.2em;
+}
+
+.selector-chooser a, .selector-chooser a:visited, #add_all_permissions, #remove_all_permissions{
+    color: blue;
+    text-decoration: none;
+}
+
+.selector ul.selector-chooser {
+    float: left;
+    width: 22px;
+    background-color: var(--selected-bg);
+    border-radius: 10px;
+    margin: 10em 5px 0 5px;
+    padding: 0;
+}
+.form-row {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid var(--hairline-color);
+}
+
+.selector-available, .selector-chosen {
+    float: left;
+    width: 380px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.selector select {
+    padding: 0 10px;
+    margin: 0 0 10px;
+    border-radius: 0 0 4px 4px;
+    width: 380px;
+    height: 17.2em;
+}

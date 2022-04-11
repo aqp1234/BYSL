@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/main/webapp/WEB-INF/views/auth/findSchool.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/auth/login.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/calendar/main.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/chatRoom/list.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/soloCalendar/main.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/templates/leftSideBar.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/templates/teamWorkspaceBar.jsp=UTF-8
+encoding//src/main/webapp/resources/css/addCalendar.css=UTF-8
+encoding//src/main/webapp/resources/css/chat.css=UTF-8
